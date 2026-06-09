@@ -9,7 +9,7 @@
 
   .logo__box {
     justify-content: space-between;
-    gap: 12px;
+    gap: 20px;
   }
 
   .logo__box .logo {
@@ -18,7 +18,7 @@
   }
 
   .logo__box h1 {
-    font-size: 16px;
+    font-size: 30px;
   }
 
   nav {
@@ -45,14 +45,66 @@
     display: flex;
     justify-content: center;
   }
+
+  .teacher, .student {
+    width: 47%;
+  }
+
+  footer {
+    height: 270px;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .logo__box h1 {
+    font-size: 15px;
+  }
+
   nav {
     display: none; 
   }
 
   .menu-close {
     display: block;
+  }
+
+  .teacher, .student {
+    width: 100%;
+  }
+
+  .events__li {
+    flex-direction: column;
+  }
+
+  .events__textbox, .events__img {
+    width: 100%;
+  }
+
+  .reverse__img {
+    order: -1;
+  }
+
+  footer {
+    height: 350px;
+    gap: 30px;
+  }
+
+  .contacts__svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .contacts__text {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+
+  .facebook__logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer__facebook-text {
+    font-size: 40px;
   }
 }

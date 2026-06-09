@@ -1,1 +1,0 @@
-header{height:100px;display:flex;justify-content:space-around;align-items:center;background-color:blue}h1{color:#ff0}nav{width:650px;display:flex;align-items:center}.nav__list{width:100%;display:flex;justify-content:space-between}.nav__link>a{color:#ff0e0e;font-weight:bold}#togleFirst:checked .header__submenu-first{display:block}

@@ -7,7 +7,7 @@
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100vh;
-  background-color: blue;
+  background-color: $main-2-color;
   flex-direction: column;
   padding: 20px;
   z-index: 999;
@@ -29,14 +29,14 @@
 }
 
 .burger__link {
-  color: yellow;
+  color: $main-1-color;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
 .menu-close, .burger {
   width: 30px; height: 30px;
-  background-color: yellow;
+  background-color: $main-1-color;
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -47,7 +47,7 @@
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100vh;
-  background-color: blue;
+  background-color: $main-2-color;
   flex-direction: column;
   padding: 20px;
   z-index: 999;

@@ -1,0 +1,34 @@
+.achievement {
+    background-color: $main-2-2-color;
+}
+
+.achievement__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.achievement__li {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.achievement__textbox {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.achievement__img {
+    width: 40%;
+    height: 300px;
+}
+
+.achievement__h3 {
+    font-size: 40px;
+}
+
+.achievement__p {
+    font-size: 25px;
+}

@@ -1,0 +1,30 @@
+.instruments {
+    background-color: $main-2-color;
+}
+
+.instruments__container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.instruments__item {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.instruments__photo {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.instruments__name {
+    font-size: 28px;
+    text-align: center;
+}
