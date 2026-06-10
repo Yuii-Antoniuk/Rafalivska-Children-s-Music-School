@@ -76,8 +76,18 @@
     flex-direction: column;
   }
 
-  .events__textbox, .events__img {
+  .events__textbox, .events__img, .instruments__item,
+  .achievement__textbox, .achievement__img {
     width: 100%;
+  }
+
+  .achievement__li,
+  .events__li {
+    flex-direction: column;
+  }
+
+  .achievement__img {
+    height: auto;
   }
 
   .reverse__img {
