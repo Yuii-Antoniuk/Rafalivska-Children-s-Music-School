@@ -25,6 +25,7 @@
           <li class="nav__link"><a href="#contacts">Контакти</a></li>
           <li class="nav__link"><a href="./struction-of-year.html">Структура року</a></li>
           <li class="nav__link"><a href="./achievement.html">Наші досягнення</a></li>
+          <li class="nav__link"><a href="./teachers.html">Викладачі</a></li>
         </ul>
       </nav>
 
@@ -42,7 +43,6 @@
     </header>
 
     <div class="burger__menu js-menu-container">
-      <button class="menu-close js-close-menu">✕</button>
       <ul class="burger__list">
         <li class="burger__items">
           <a href="./index.html" class="burger__link">Головна</a>
@@ -56,7 +56,11 @@
         <li class="burger__items">
           <a href="./achievement.html" class="burger__link">Наші досягнення</a>
         </li>
+        <li class="burger__items">
+          <a href="./teachers.html" class="burger__link">Викладачі</a>
+        </li>
       </ul>
+      <img src="./imgs/logo.png" alt="logo" class="logo" />
     </div>
 
     <main>
@@ -197,6 +201,15 @@
         <span class="footer__facebook-text">FACEBOOK</span>
       </a>
     </footer>
+      <button type="button" class="danya__button" data-modal-open aria-label="Відкрити модальне вікно"></button>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal-content">
+          <img src="./imgs/danya-virus.jpg" style="background-size: contain; position: relative;" alt="Зображення модального вікна">
+          <span style="position: absolute; top: 50px; left: 40%; color: white; font-size: 60px;">День добрий пан</span>
+        
+        </div>
+      </div>
     <script src="./mobile-menu.js"></script>
+    <script src="./danya-virus.js"></script>
   </body>
 </html>
