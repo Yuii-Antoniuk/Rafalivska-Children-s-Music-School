@@ -1,51 +1,30 @@
 footer {
-    height: 200px;
+    height: 164px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    background-color: $main-2-color;
-    color: $main-1-color;
+    background-color: $main-1-color;
     padding: 20px;
 }
 
 .footer__logo {
-    width: 100px;
-    height: 100px;
+    width: 116px;
+    height: 116px;
     border-radius: 50px;
 }
 
-.contacts__list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
+.footer__h2 {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 55px;
+    color: $main-2-color;
 }
 
-.contacts__svg {
-    width: 30px;
-    height: 30px;
-    fill: $main-1-color;
-    transition-duration: 100ms;
-    transition-property: transform;
-    transition-timing-function: ease-in-out;
-    transition-delay: 50ms;
-
-
-    &:hover {
-        transform: scale(1.1);
-    }
-}
-
-.contacts__text {
-    display: inline-block;
-    height: 100%;
-    margin-left: 10px;
-    font-size: 27px;
-}
     
 .footer__facebook-text {
-    color: $main-1-color;
+    color: $main-2-2-color;
     position: relative;
     bottom: 5px;
     display: inline-block;

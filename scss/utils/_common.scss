@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    margin-top: 164px;
+}
+    
 .active__link {
     text-decoration: underline;
 }
@@ -23,9 +27,8 @@ li {
 }
 
 section {
-    color: $main-1-color;
-    background-color: $main-2-color;
     padding: 40px 0;
+    border-bottom: 0.5px solid black;
 }
 
 h2 {
@@ -35,7 +38,7 @@ h2 {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;

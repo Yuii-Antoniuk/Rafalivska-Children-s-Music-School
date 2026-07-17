@@ -1,8 +1,16 @@
 .structureOfYear {
-  background-color: $main-2-2-color;
+  background-color: $main-1-color;
 }
+
+.structionOfYear__h2 {
+    color: $main-2-2-color;
+    margin-bottom: 59px;
+    font-size: 96px;
+}
+
 
 .structionOfYear__p {
     text-align: center;
     font-size: 25px;
+    color: $main-2-color;
 }

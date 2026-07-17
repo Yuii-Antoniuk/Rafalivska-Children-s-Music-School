@@ -1,10 +1,18 @@
 /* Responsive header styles */
 
-@media (max-width: 900px) {
+@media (max-width: 1470px) {
+  body {
+    margin-top: 99px;
+  }
+
   header {
     justify-content: space-between;
     padding: 15px;
     height: auto;
+  }
+
+  .js-open-menu {
+    display: block;
   }
 
   .logo__box {
@@ -26,7 +34,7 @@
   }
 
   .burger {
-    display: block;
+    display: block !important;
   }
 
   .burger__menu {
@@ -50,14 +58,57 @@
     width: 47%;
   }
 
+  .events__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .events__li {
+    flex-direction: column !important;
+    width: 45%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .events__h3 {
+    text-align: center;
+  }
+  
+  .events__p {
+    font-size: 20px;
+    width: 100%;
+    letter-spacing: -0.5px;
+  }
+
+  .events__img {
+    width: 80%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
   footer {
     height: 270px;
   }
+
+  .contacts__list {
+    flex-direction: row;
+  }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  body {
+    margin-top: 91px;
+  }
+
+  h2 {
+    font-size: 50px !important;
+  }
+
   .logo__box h1 {
-    font-size: 15px;
+    font-size: 23px;
+  }
+
+  .logo__box {
+    width: 253px;
   }
 
   nav {
@@ -68,12 +119,21 @@
     display: block;
   }
 
-  .teacher, .student {
-    width: 100%;
+  .hero__button {
+    width: 320px!important;
+    height: 60px;
+    font-size: 20px;
+
+    font-size: 27px!important;
+  }
+
+  .events__list {
+    flex-direction: column;
   }
 
   .events__li {
     flex-direction: column;
+    width: 100%;
   }
 
   .events__textbox, .events__img, .instruments__item,
@@ -86,8 +146,15 @@
     flex-direction: column;
   }
 
-  .achievement__img {
+  .events__img {
     height: auto;
+    margin: 0px!important;
+  }
+
+  .events__p {
+    width: 100%;
+    letter-spacing: -0.5px;
+    text-align: center;
   }
 
   .reverse__img {
@@ -104,9 +171,26 @@
     height: 20px;
   }
 
-  .contacts__text {
-    font-size: 15px;
-    margin-left: 5px;
+  .contacts__textbox {
+    width: 100%;
+    font-size: 15px!important;
+
+    & > p, & > span {
+      font-size: 10px!important;
+    }
+  }
+
+  .contacts__span {
+    font-size: 35px!important;
+  }
+
+  .contacts__p {
+    font-size: 23px!important;
+  }
+
+  .contacts__map {
+    width: 100%;
+    border: 1px solid black;
   }
 
   .facebook__logo {
