@@ -5,9 +5,12 @@
     modal: document.querySelector("[data-modal]"),
   };
 
-  if (!refs.openModalBtn || !refs.modal) {
-    return;
-  }
+  if (!refs.openModalBtn || !refs.modal) return;
+
+  const toggleModal = () => {
+    refs.modal.classList.toggle("is-hidden");
+    document.body.classList.toggle("no-scroll");
+  };
 
   refs.openModalBtn.addEventListener("click", toggleModal);
 
@@ -20,9 +23,4 @@
       toggleModal();
     }
   });
-
-  function toggleModal() {
-    refs.modal.classList.toggle("is-hidden");
-    document.body.classList.toggle("no-scroll");
-  }
 })();
